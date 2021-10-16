@@ -1,0 +1,15 @@
+const aluno = 10
+
+for(let cont = 0; cont <= aluno; cont++) {
+
+    if (cont == 0){
+        console.log('O numero é zero');
+
+    } else if (cont %2 == 0) {
+            console.log(`O numero é par ${cont}`);
+            
+    } else if (cont %2 != 0)
+        console.log(`O numero é impar ${cont}`);       
+        
+
+}
